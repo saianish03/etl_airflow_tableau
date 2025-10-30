@@ -1,0 +1,13 @@
+# OS-level packages required for the ETL pipeline
+# These packages will be installed in the Docker container
+
+# PostgreSQL client libraries
+postgresql-client
+
+# Build tools for Python packages
+build-essential
+
+# Additional utilities
+curl
+wget
+vim

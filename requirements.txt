@@ -1,0 +1,30 @@
+# Core Airflow dependencies (included in Astro Runtime)
+# These are pre-installed in Astronomer Runtime but listed for reference
+# apache-airflow==2.8.1
+# apache-airflow-providers-postgres==5.10.0
+# apache-airflow-providers-http==4.7.0
+
+# Additional Python packages for ETL pipeline
+requests==2.31.0
+psycopg2-binary==2.9.9
+requests_cache==1.2.1
+retry_requests==2.0.0
+openmeteo_requests==1.7.3
+
+# Development and testing dependencies
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Data processing and validation
+pandas==2.1.4
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Optional: For advanced data transformations
+# sqlalchemy==2.0.23
+# sqlalchemy-utils==0.41.1
